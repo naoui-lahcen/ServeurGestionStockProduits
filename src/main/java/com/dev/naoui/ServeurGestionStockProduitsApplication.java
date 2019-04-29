@@ -8,6 +8,7 @@ public class ServeurGestionStockProduitsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ServeurGestionStockProduitsApplication.class, args);
+		System.out.println("Bonjour !!!!!");
 	}
 
 }
