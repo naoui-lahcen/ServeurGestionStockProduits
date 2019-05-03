@@ -33,7 +33,7 @@ public class ProduitController {
 	}
 	@PutMapping
 	public void updateProduit(@RequestBody Produit produit) {
-		produitService.addProduit(produit);
+		produitService.updateProduit(produit);
 	}
 	@DeleteMapping("/{ref}")
 	public void deleteProduit(@PathVariable String ref) {
